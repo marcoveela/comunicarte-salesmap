@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Entornos (NUNCA SUBIR CONTRASEÑAS AL REPOSITORIO)
+.env.dev
+.env.prod
+
+# Docker
+*.log
+
+# Editor
+.vscode/
+.DS_Store
