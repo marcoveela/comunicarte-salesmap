@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F4F6F9;
+}
+
+.leaflet-pm-toolbar .leaflet-pm-icon {
+  width: 36px !important;
+  height: 36px !important;
+}
+
+/* Empuja el contenedor superior izquierdo de Leaflet para dejar espacio al buscador */
+.leaflet-top.leaflet-left {
+  margin-top: 80px !important; /* Puedes subir o bajar este número según el tamaño de tu buscador */
+  margin-left: 10px !important; /* Para separarlo un poquito del borde de la pantalla */
+}
+
+.leaflet-bottom.leaflet-left,
+.leaflet-bottom.leaflet-right {
+  bottom: 64px !important;}
